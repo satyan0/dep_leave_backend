@@ -1571,8 +1571,8 @@ def collective_data():
 # 	app.secret_key='secret123'
 	# app.config['SESSION_COOKIE_SECURE'] = True
 	# app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
-# app.run('0.0.0.0', port=5000, threaded=False)
+app.run('0.0.0.0', port=5000, threaded=False)
 # app.run(host='127.0.0.1', port=5000)
 
 	# app.run()
-export_app = app
+# export_app = app
